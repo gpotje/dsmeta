@@ -39,7 +39,7 @@ public class SaleController {
 	@GetMapping("/{id}/notification")
 	@ResponseStatus(HttpStatus.OK)
 	public void notifySms(@PathVariable Long id) {
-		smsService.sendSms();
+		smsService.sendSms(id);
 		
 	}
 
