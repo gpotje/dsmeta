@@ -1,0 +1,10 @@
+Resumo do projeto: o backend feito com a linguagem #java usando o frameWork #springboot como banco de dados foi usado o #h2 para a 
+persistências de dados, como ferramenta de ORM foi usado #jpa.
+
+o FrontEnd foi feito em #react.
+
+Link heroku: https://dsmeta-gpotje.herokuapp.com/
+link netlify: https://dsmeta-gpotje.netlify.app/
+
+
+

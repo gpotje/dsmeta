@@ -11,7 +11,8 @@ type Props = {
 function handleClick(id: number){
   axios(`${BASE_URL}/sales/${id}/notification`)
     .then(reponse => {
-      toast.info(reponse.data)
+      toast.dark(reponse.data)
+     
     })
 }
 
